@@ -47,7 +47,7 @@ class Driver(Person):
     def update_shift(self, new_shift_timing):
         """Update shift timing for driver"""
         self.shift_timing = new_shift_timing
-
+    
     def display_info(self):
         return (f"[Driver] Name: {self.name}, Age: {self.age}, Contact: {self.get_contact_info()}, "
                 f"Gender: {self.gender}, Employee ID: {self.employee_id}, Route: {self.route_assigned}, "
